@@ -9,12 +9,12 @@ async def start(message: types.Message):
                            reply_markup=keyboard)
 
 PRICE = {
-    '4': [types.LabeledPrice(label='Item1', amount=100)],
-    '5': [types.LabeledPrice(label='Item2', amount=101)],
-    '6': [types.LabeledPrice(label='Item3', amount=102)],
-    '7': [types.LabeledPrice(label='Item4', amount=103)],
-    '8': [types.LabeledPrice(label='Item5', amount=104)],
-    '9': [types.LabeledPrice(label='Item6', amount=105)]
+    '1': [types.LabeledPrice(label='Item1', amount=100)],
+    '2': [types.LabeledPrice(label='Item2', amount=101)],
+    '3': [types.LabeledPrice(label='Item3', amount=102)],
+    '4': [types.LabeledPrice(label='Item4', amount=103)],
+    '5': [types.LabeledPrice(label='Item5', amount=104)],
+    '6': [types.LabeledPrice(label='Item6', amount=105)]
 }
 
 @dp.message_handler(content_types='web_app_data')
